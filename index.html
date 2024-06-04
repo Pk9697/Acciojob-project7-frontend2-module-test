@@ -7,53 +7,57 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<div class="nav-bar">
-			<h2 class="logo">Student Portal</h2>
-		</div>
-		<div class="search-bar">
-			<input type="search" class="searchInput" placeholder="Search" />
-			<button type="button" class="button">Search</button>
-		</div>
-		<div class="sorting-bar">
-			<button type="button" class="button">Sort A->Z</button>
-			<button type="button" class="button">Sort Z->A</button>
-			<button type="button" class="button">Sort By Marks</button>
-			<button type="button" class="button">Sort By Passing</button>
-			<button type="button" class="button">Sort By Class</button>
-			<button type="button" class="button">Sort By Gender</button>
+		<div class="container nav-bar">
+			<h3 class="logo">Student Portal</h3>
 		</div>
 
-		<table class="table">
-			<thead>
-				<tr>
-					<td>ID</td>
-					<td>Name</td>
-					<td>Gender</td>
-					<td>Class</td>
-					<td>Marks</td>
-					<td>Passing</td>
-					<td>Email</td>
-				</tr>
-			</thead>
+		<main class="container main">
+			<div class="search-bar">
+				<input type="search" class="searchInput" placeholder="Search" />
+				<button type="button" class="button">Search</button>
+			</div>
+			<div class="sorting-bar">
+				<button type="button" class="button">Sort A->Z</button>
+				<button type="button" class="button">Sort Z->A</button>
+				<button type="button" class="button">Sort By Marks</button>
+				<button type="button" class="button">Sort By Passing</button>
+				<button type="button" class="button">Sort By Class</button>
+				<button type="button" class="button">Sort By Gender</button>
+			</div>
 
-			<tbody>
-				<tr>
-					<td>1</td>
-					<td>
-						<div class="avatar">
-							<img src="https://randomuser.me/api/portraits/men/1.jpg" alt="avatar-img"/>
-						</div>
-						<div class="name">
-							Avi Vashishta
-						</div>
-					</td>
-					<td>Male</td>
-					<td>12</td>
-					<td>99</td>
-					<td>Failed</td>
-					<td>avi@gmail.com</td>
-				</tr>
-			</tbody>
-		</table>
+			<table class="table">
+				<thead>
+					<tr>
+						<td>ID</td>
+						<td>Name</td>
+						<td>Gender</td>
+						<td>Class</td>
+						<td>Marks</td>
+						<td>Passing</td>
+						<td>Email</td>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td class="flex-row">
+							<div class="avatar">
+								<img
+									src="https://randomuser.me/api/portraits/men/1.jpg"
+									alt="avatar-img"
+								/>
+							</div>
+							<div class="name">Avi Vashishta</div>
+						</td>
+						<td>Male</td>
+						<td>12</td>
+						<td>99</td>
+						<td>Failed</td>
+						<td>avi@gmail.com</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
 	</body>
 </html>
