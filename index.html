@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portal</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="nav-bar">
+			<h2 class="logo">Student Portal</h2>
+		</div>
+		<div class="search-bar">
+			<input type="search" class="searchInput" placeholder="Search" />
+			<button type="button" class="button">Search</button>
+		</div>
+		<div class="sorting-bar">
+			<button type="button" class="button">Sort A->Z</button>
+			<button type="button" class="button">Sort Z->A</button>
+			<button type="button" class="button">Sort By Marks</button>
+			<button type="button" class="button">Sort By Passing</button>
+			<button type="button" class="button">Sort By Class</button>
+			<button type="button" class="button">Sort By Gender</button>
+		</div>
+
+		<table class="table">
+			<thead>
+				<tr>
+					<td>ID</td>
+					<td>Name</td>
+					<td>Gender</td>
+					<td>Class</td>
+					<td>Marks</td>
+					<td>Passing</td>
+					<td>Email</td>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>
+						<div class="avatar">
+							<img src="https://randomuser.me/api/portraits/men/1.jpg" alt="avatar-img"/>
+						</div>
+						<div class="name">
+							Avi Vashishta
+						</div>
+					</td>
+					<td>Male</td>
+					<td>12</td>
+					<td>99</td>
+					<td>Failed</td>
+					<td>avi@gmail.com</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
