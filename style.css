@@ -138,6 +138,10 @@ td{
     padding: 0.5em 1em;
 }
 
+tbody td{
+    font-size: 0.75rem;
+}
+
 .avatar{
     width: 30px;
     height: 30px;
